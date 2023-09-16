@@ -1,0 +1,80 @@
+body{
+    background: black;
+    
+  
+}
+div{
+    box-sizing: border-box;
+}
+
+div.post{
+    margin-top: 45px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-sizing: content-box;
+}
+
+div.post-header{
+    background: white;
+    width: 480px;
+    display: flex;
+    align-items:center;
+}
+
+h1{
+    margin: 5px;
+}
+
+span{
+    margin: 5px;
+}
+
+div.post-body{
+    background: white;
+    width: 480px;
+    height: 150px;
+ 
+}
+
+div.container{
+    width: 480px;
+    margin: auto;
+}
+
+div.post-icons{
+    flex-direction: row;
+    padding: 5px;
+    background: white;
+    display: flex;
+    
+}
+
+div.post-body p{
+    padding: 5px;
+}
+
+div.post-image{
+    background:white;
+    width: 480px;   
+}
+
+img{
+    width: 480px;
+}
+
+span.material-symbols-outlined{
+    font-size: 35px;
+    line-height: 0px;
+}
+
+div.icon-header{
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+
+div.icon-save{
+    display: flex;
+    position: relative;
+    left: 280px;
+}
